@@ -29,7 +29,12 @@ NEXT_PUBLIC_REACT_APP_MORALIS_SERVER_URL=<Insert Your Moralis Server URL Here>
 
 ## Run Phantasm
 
-Now should be able to run the dapp in a local development server.
+Now should be able to run the dapp in a local development server. You might run into some moralis dependancy erros in which case try running
+```
+yarn add magic-sdk@7.0.0
+npm install @web3auth/web3auth
+npm install @walletconnect/web3-provider
+```
 
 In the command line, run:
 
